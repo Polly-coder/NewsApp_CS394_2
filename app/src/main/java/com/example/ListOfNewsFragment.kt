@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.newsapp_cs394_2.R
 import com.example.newsapp_cs394_2.adapter.ItemAdapter
-import com.example.newsapp_cs394_2.data.DataSourse
+import com.example.newsapp_cs394_2.data.DataSource
 import com.example.newsapp_cs394_2.databinding.ListOfNewsLayoutBinding
 
 class ListOfNewsFragment:Fragment() {
@@ -20,7 +20,7 @@ class ListOfNewsFragment:Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding = DataBindingUtil.inflate<ListOfNewsLayoutBinding>(inflater, R.layout.list_of_news_layout, container, false)
-        val news = DataSourse(requireActivity()).loadNews()
+        val news = DataSource(requireActivity()).loadNews()
 
         val rv: RecyclerView = binding.recyclerView
         rv.adapter= ItemAdapter(news)
