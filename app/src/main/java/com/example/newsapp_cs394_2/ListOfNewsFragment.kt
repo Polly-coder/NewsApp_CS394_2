@@ -1,6 +1,5 @@
-package com.example
+package com.example.newsapp_cs394_2
 
-import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +7,6 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
-import com.example.newsapp_cs394_2.R
 import com.example.newsapp_cs394_2.adapter.ItemAdapter
 import com.example.newsapp_cs394_2.data.DataSource
 import com.example.newsapp_cs394_2.databinding.ListOfNewsLayoutBinding

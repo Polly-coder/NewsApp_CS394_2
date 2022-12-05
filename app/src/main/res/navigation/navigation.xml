@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/listOfNewsFragment"
-        android:name="com.example.ListOfNewsFragment"
+        android:name="com.example.newsapp_cs394_2.ListOfNewsFragment"
         android:label="ListOfNewsFragment"
         tools:layout="@layout/list_of_news_layout"/>
 </navigation>
