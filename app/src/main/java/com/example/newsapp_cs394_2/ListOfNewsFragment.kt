@@ -23,6 +23,8 @@ class ListOfNewsFragment:Fragment() {
         val rv: RecyclerView = binding.recyclerView
         rv.adapter= ItemAdapter(news)
 
+
+
         return binding.root
     }
 }
